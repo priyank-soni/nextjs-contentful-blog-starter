@@ -19,7 +19,7 @@ export default async function preview(req, res) {
    *
    */
   if (
-    req.query.secret !== process.env.CONTENTFUL_PREVIEW_SECRET ||
+    req.query.secret !== 'RZMmTmroQyW4MCgx9TFJoDi_1iksEN55KGTBUvPJ8Og' ||
     !req.query.slug ||
     !req.query.contentType
   ) {
