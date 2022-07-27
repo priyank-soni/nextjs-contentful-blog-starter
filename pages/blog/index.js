@@ -24,7 +24,7 @@ export default function BlogIndex(props) {
   const pageTitle = pageContent ? pageContent.title : "Blog";
   const pageDescription = pageContent
     ? pageContent.description
-    : "Articles | Next.js Contentful blog starter";
+    : "Articles | Next.js Contentful Blog Sstarter";
 
   return (
     <MainLayout preview={preview}>
